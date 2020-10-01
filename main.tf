@@ -12,8 +12,6 @@ provider "aws" {
   region = "us-west-2"
   #shared_credentials_file = "%USERPROFILE%/.aws/credentials"
   #shared_credentials_file = "~/.aws/credentials"
-  #access_key = "ASIARJRJNHEYPGWBOHHJ"
-  #secret_key = "9QjdQN03Dka9tSihl5++K5/nVT7WvPT4PS3A/rkr"
 }
 
 resource "aws_instance" "RH_EC2Instance" {
